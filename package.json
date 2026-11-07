@@ -1,0 +1,15 @@
+{
+  "name": "whatsapp-agent-clinica",
+  "version": "1.0.0",
+  "description": "Agente de IA para WhatsApp — Assistente de Clínica Médica",
+  "main": "whatsapp_agent.js",
+  "scripts": {
+    "start": "node whatsapp_agent.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "form-data": "^4.0.5",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.26.1-alpha.3"
+  }
+}
